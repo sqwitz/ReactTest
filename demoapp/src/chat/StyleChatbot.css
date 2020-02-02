@@ -1,0 +1,49 @@
+
+div{
+    align-items: center;
+    bottom:0;
+    margin:0px;
+    padding:0px;
+    
+}
+
+div p {
+    margin:0px;
+    padding:0px;
+}
+div .MessageMe{
+    margin-right:20px;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+#send{
+    margin-right:20px;
+}
+.color{
+    border-radius: 30px;
+    padding:10px 20px 10px 20px;
+    color:whitesmoke;
+    background-color: rgb(75, 74, 74);
+}
+div .inputMessage{
+    left:550px;
+    bottom:30px;
+    position:fixed;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+div .inputMessage input{
+    border-radius: 50px;
+    padding:10px;
+}
+div .inputMessage button{
+    border-radius: 50px;
+    padding:10px;
+    background-color:rgb(42, 15, 180);
+    color:whitesmoke;
+}

@@ -1,0 +1,183 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>hello</p>
+    <script>
+        // var number = 7;
+        // var result = "";
+        // var i = 0;
+        // var s = 0;
+
+        // //triangle
+        // for (i = 0; i < number; i++) {
+        //     s = (number * 2) - 1;
+        //     for (s; s > 0; s--) {
+        //         if (number % 2 == 0) {
+        //             if (s < number - i || s > number + i) {
+        //                 result += "\xa0";
+        //             } else if (i == 0 && s == number) {
+        //                 result += "+";
+        //             } else if (i % 2 == 1 && s % 2 == 1) {
+        //                 result += "+";
+        //             } else if (i % 2 == 0 && s % 2 == 0) {
+        //                 result += "+";
+        //             } else if (i % 2 == 1 && s % 2 == 0) {
+        //                 result += "\xa0";
+        //             } else if (i % 2 == 0 && s % 2 == 1) {
+        //                 result += "\xa0";
+        //             }
+        //         }else if(number %2 ==1){
+        //             if (s < number - i || s > number + i) {
+        //                 result += "\xa0";
+        //             } else if (i == 0 && s == number) {
+        //                 result += "+";
+        //             } else if (i % 2 == 1 && s % 2 == 0) {
+        //                 result += "+";
+        //             } else if (i % 2 == 0 && s % 2 == 1) {
+        //                 result += "+";
+        //             } else if (i % 2 == 1 && s % 2 == 1) {
+        //                 result += "\xa0";
+        //             } else if (i % 2 == 0 && s % 2 == 0) {
+        //                 result += "\xa0";
+        //             }
+        //         }
+        //     }
+        //     result += "\n";
+
+        // }
+        // console.log(result);
+
+        // //trianglePlus
+        // for (i = 0; i < number; i++) {
+        //     s = (number * 2) - 1;
+        //     for (s; s > 0; s--) {
+        //         if (number % 2 == 0) {
+        //             if (s > number + i || s < number - i) {
+        //                 result += "\xa0";
+        //             }
+        //             else if (s == number+i || s== number-i) {
+        //                 result+= "+";
+        //             }
+        //             else if (i == 0 && s == number) {
+        //                 result += "+";
+        //             }
+        //             else if(i%2==1 && s%2==1 && i==number-1){
+        //                 result +="+";
+        //             }
+        //             else if(i%2==1 && s%2==1){
+        //                 result +="*";
+        //             }
+        //             else if(i%2==0 && s%2==0){
+        //                 result +="*";
+        //             }
+        //             else if(i%2==1 && s%2==0 &&(s<number+i || s>number-i)){
+        //                 result +="\xa0";
+        //             }
+        //             else if(i%2==0 && s%2==1 && (s<number+i || s>number-i)){
+        //                 result +="\xa0";
+        //             }
+        //         }
+        //         else if(number%2==1){
+        //             if(s>number+i || s<number-i){
+        //                 result += "\xa0";
+        //             }
+        //             else if(s== number+i || s==number -i){
+        //                 result +="+";
+        //             }
+        //             else if(i%2==0 && s%2==1 &&i==number-1){
+        //                 result += "+";
+        //             }
+        //             else if(i%2==1 && s%2==0 &&(s<number+i || s>number-i)){
+        //                 result +="*";
+        //             }
+        //             else if(i%2==0 && s%2 ==1 && (s<number+i || s>number-i)){
+        //                 result +="*";
+        //             }
+        //             else if(i%2==1 && s%2 ==1 && (s<number+i || s>number-i)){
+        //                 result +="\xa0";
+        //             }
+        //             else if(i%2==0 && s%2 ==0 && (s<number+i || s>number-i)){
+        //                 result += "\xa0";
+        //             }
+        //         }
+        //     }
+        //     result += "\n"; 
+
+        // }
+        // console.log(result);
+
+        // //Reverse
+        // for (i = number - 1; i >= 0; i--) {
+        //     for (s=1; s <= (number*2)-1; s++) {
+        //         if (number % 2 == 0) {
+        //             if (s == number + i || s == number - i) {
+        //                 result += "+";
+        //             }
+        //             else if(i==number-1 && s%2==1){
+        //                 result+= "+";
+        //             }
+        //             else if(s<number-i || s>number+i){
+        //                 result +="\xa0";
+        //             }
+        //             else if(i%2==1 && s%2==1 &&(s>number-i || s<number+i)){
+        //                 result+= "+";
+        //             }
+        //             else if(i%2==0 && s%2==0 &&(s>number-i || s<number+i)){
+        //                 result +="+"
+        //             }
+        //             else if(i%2==1 && s%2==0 &&(s>number-i || s<number+i)){
+        //                 result +="\xa0";
+        //             }
+        //             else if(i%2==0 && s%2==1 && (s>number-i || s<number+i)){
+        //                 result +="\xa0";
+        //             }
+        //         }
+        //         else if(number%2==1){
+        //             if(s== number+i|| s==number-i){
+        //                 result +="+";
+        //             }
+        //             else if(i==number-1 &&s%2==1){
+        //                 result +="+";
+        //             }
+        //             else if(s<number-i || s>number+i){
+        //                 result +="\xa0";
+        //             }
+        //             else if(i%2==1 && s%2==0 &&(s>number-i || s<number+i)){
+        //                 result +="+";
+        //             }
+        //             else if(i%2==0 && s%2==1 &&(s>number-i || s<number+i)){
+        //                 result +="+";
+        //             }
+        //             else if(i%2==1 && s%2==1 &&(s>number-i || s<number+i)){
+        //                 result +="\xa0";
+        //             }
+        //             else if(i%2==0 && s%2==0 &&(s>number-i || s<number+i)){
+        //                 result +="\xa0";
+        //             }
+        //         }
+        //     }
+        //     result += "\n";
+        // }
+        // console.log(result);
+        var date;
+        var mount;
+        var year;
+        const getCurrentDate = () => {
+            var newDate = new Date();
+             date = newDate.getDay();
+             mount = newDate.getMonth();
+             year = newDate.getFullYear();
+            return date;
+        }
+        console.log(date);
+    </script>
+</body>
+
+</html>
